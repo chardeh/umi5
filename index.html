@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="english">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- MODIFICAR: Título de la pestaña del navegador -->
+    <title>Sakura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="petals-container"></div>
+
+<div class="card-container" onclick="animateCard(event)">
+    <div class="card" id="card">
+
+        <div class="page page-back">
+
+            <div class="page-content front-face image-page">
+            </div>
+
+            <div class="page-content back-face">
+                <!--Significa paz-->
+                <div class="kanji-text">愛</div>
+                <div class="romaji-text">Love</div>
+                <!-- MODIFICAR: Mensaje de la parte trasera de la carta -->
+                <p class="message-text">
+                  May my love fill the deepest part of your heart<br>
+                </p>
+                 <!-- MODIFICAR: Firma o dedicatoria -->
+                <div class="signature">With Love, <br> Chardeh</div>
+            </div>
+        </div>
+
+        <div class="page page-front">
+
+            <div class="page-content front-face">
+                <div class="sakura-decoration">🌸</div>
+                <h1 class="cover-title">花見</h1>
+                <p class="cover-subtitle">Sakura</p>
+                <p class="click-hint" id="hint-text">Tap to open the letter 🌸</p>
+            </div>
+
+            <div class="page-content back-face">
+                <!-- MODIFICAR: Mensaje principal (parte central de la carta) -->
+                <p class="message-text">
+                  Under the sakura trees,<br>
+                  Chardeh picked red roses,<br>
+                  a gift just for Umi,<br>
+                  to brighten her day.<br>
+                  <br>
+                  At the Minecraft temple,<br>
+                  they shared a quiet moment,<br>
+                  soft petals falling,<br>
+                  peace all around.<br>
+                </p>  </p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+                            
